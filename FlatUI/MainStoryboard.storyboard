@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12E55" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="CMk-br-Tvk">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller - Flat UI-->
+        <scene sceneID="6JJ-3B-JPd">
+            <objects>
+                <viewController id="FlR-dr-cNg" customClass="PBViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZMZ-VA-Ptb">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yRy-9R-hOE" customClass="PBFlatButton">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="29" id="Lm0-fz-ccO"/>
+                                    <constraint firstAttribute="width" constant="208" type="user" id="W0B-OX-cyq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="FlatButton">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your text here" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="M3l-k6-OeP" customClass="PBFlatTextfield">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="156" id="7iq-yB-bHu"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" image="avatar.png" translatesAutoresizingMaskIntoConstraints="NO" id="1ZV-qu-Ngn" customClass="PBFlatRoundedImageView">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="23H-G4-MpH"/>
+                                    <constraint firstAttribute="width" constant="100" id="TdM-ZZ-k7m"/>
+                                </constraints>
+                            </imageView>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="qmF-u3-0LA" customClass="PBFlatSegmentedControl">
+                                <segments>
+                                    <segment title="First"/>
+                                    <segment title="Second"/>
+                                </segments>
+                            </segmentedControl>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Tc-gN-bnJ" customClass="PBFlatButtonWithIcon">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="29" id="74o-MQ-0am"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="29" type="user" id="R18-Xj-alY"/>
+                                    <constraint firstAttribute="width" constant="36" id="Tsb-ed-ERS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k7P-eS-TWo" customClass="PBFlatButtonWithIcon">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="36" id="1lM-0b-X65"/>
+                                    <constraint firstAttribute="height" constant="29" type="user" id="1le-3J-ia9"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="29" type="user" id="bo5-mF-8t5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3JG-Cv-lav" customClass="PBFlatButtonWithIcon">
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="29" type="user" id="1ah-EH-mHT"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fIA-YW-t8y" customClass="PBFlatButtonWithIcon">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="36" id="50V-lf-76P"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="29" type="user" id="l5K-jn-1lq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ybS-qD-UrO" customClass="PBFlatButtonWithIcon">
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="29" type="user" id="MGw-CM-aPs"/>
+                                    <constraint firstAttribute="width" constant="36" id="Xqr-s9-lUM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="3JG-Cv-lav" firstAttribute="top" secondItem="qmF-u3-0LA" secondAttribute="bottom" constant="15" type="user" id="08H-FO-VUe"/>
+                            <constraint firstItem="M3l-k6-OeP" firstAttribute="top" secondItem="ZMZ-VA-Ptb" secondAttribute="top" constant="160" id="2Yq-Zd-LGQ"/>
+                            <constraint firstItem="ybS-qD-UrO" firstAttribute="centerY" secondItem="3JG-Cv-lav" secondAttribute="centerY" type="user" id="4RK-ht-OrK"/>
+                            <constraint firstItem="ybS-qD-UrO" firstAttribute="centerY" secondItem="fIA-YW-t8y" secondAttribute="centerY" type="user" id="5Yx-pI-6Z1"/>
+                            <constraint firstItem="4Tc-gN-bnJ" firstAttribute="leading" secondItem="3JG-Cv-lav" secondAttribute="leading" type="default" id="6Im-qE-EEF"/>
+                            <constraint firstAttribute="trailing" secondItem="fIA-YW-t8y" secondAttribute="trailing" constant="118" id="6zR-dP-wSg"/>
+                            <constraint firstItem="M3l-k6-OeP" firstAttribute="leading" secondItem="yRy-9R-hOE" secondAttribute="trailing" constant="-208" type="user" id="7UD-gP-NeJ"/>
+                            <constraint firstItem="1ZV-qu-Ngn" firstAttribute="centerX" secondItem="ZMZ-VA-Ptb" secondAttribute="centerX" type="default" id="899-YL-fzo"/>
+                            <constraint firstItem="ybS-qD-UrO" firstAttribute="top" secondItem="fIA-YW-t8y" secondAttribute="top" type="user" id="Jbw-M9-vaN"/>
+                            <constraint firstItem="M3l-k6-OeP" firstAttribute="leading" secondItem="yRy-9R-hOE" secondAttribute="leading" type="user" id="O26-gV-vAv"/>
+                            <constraint firstItem="k7P-eS-TWo" firstAttribute="leading" secondItem="qmF-u3-0LA" secondAttribute="leading" type="default" id="PEX-ka-bOI"/>
+                            <constraint firstItem="4Tc-gN-bnJ" firstAttribute="top" secondItem="M3l-k6-OeP" secondAttribute="top" type="default" id="SUm-km-cVQ"/>
+                            <constraint firstItem="ybS-qD-UrO" firstAttribute="leading" secondItem="1ZV-qu-Ngn" secondAttribute="leading" type="default" id="SfS-4C-ctx"/>
+                            <constraint firstItem="3JG-Cv-lav" firstAttribute="trailing" secondItem="qmF-u3-0LA" secondAttribute="trailing" type="default" id="WHf-mQ-3Rf"/>
+                            <constraint firstItem="1ZV-qu-Ngn" firstAttribute="top" secondItem="ZMZ-VA-Ptb" secondAttribute="top" constant="32" id="WSc-6W-npu"/>
+                            <constraint firstItem="k7P-eS-TWo" firstAttribute="top" secondItem="ybS-qD-UrO" secondAttribute="top" type="user" id="X8b-N3-kzY"/>
+                            <constraint firstItem="qmF-u3-0LA" firstAttribute="leading" secondItem="yRy-9R-hOE" secondAttribute="leading" type="default" id="bhv-vQ-BxA"/>
+                            <constraint firstItem="qmF-u3-0LA" firstAttribute="top" secondItem="yRy-9R-hOE" secondAttribute="bottom" constant="22" type="user" id="ijK-lr-nE1"/>
+                            <constraint firstItem="M3l-k6-OeP" firstAttribute="trailing" secondItem="1ZV-qu-Ngn" secondAttribute="trailing" type="default" id="loV-Dm-Yyp"/>
+                            <constraint firstItem="ybS-qD-UrO" firstAttribute="centerY" secondItem="k7P-eS-TWo" secondAttribute="centerY" type="user" id="sE0-yh-Kdt"/>
+                            <constraint firstItem="yRy-9R-hOE" firstAttribute="trailing" secondItem="qmF-u3-0LA" secondAttribute="trailing" type="default" id="sF9-Ca-Svc"/>
+                            <constraint firstItem="fIA-YW-t8y" firstAttribute="top" secondItem="3JG-Cv-lav" secondAttribute="top" type="user" id="vAm-N8-ffP"/>
+                            <constraint firstItem="4Tc-gN-bnJ" firstAttribute="trailing" secondItem="yRy-9R-hOE" secondAttribute="trailing" type="default" id="vQc-fG-3yr"/>
+                            <constraint firstItem="yRy-9R-hOE" firstAttribute="top" secondItem="ZMZ-VA-Ptb" secondAttribute="top" constant="205" type="user" id="vbP-dB-rqc"/>
+                            <constraint firstAttribute="bottom" secondItem="qmF-u3-0LA" secondAttribute="bottom" priority="1" constant="194" type="user" id="yWg-qa-Syo"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Flat UI" id="seT-Wv-OWk"/>
+                    <connections>
+                        <outlet property="back" destination="k7P-eS-TWo" id="Wyc-ZE-NIX"/>
+                        <outlet property="forward" destination="ybS-qD-UrO" id="syB-QF-foK"/>
+                        <outlet property="menu" destination="fIA-YW-t8y" id="Xjs-sb-qZQ"/>
+                        <outlet property="search" destination="3JG-Cv-lav" id="A0R-xT-keb"/>
+                        <outlet property="textField" destination="M3l-k6-OeP" id="OSh-OV-mia"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MKh-v9-pgX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="518" y="-132"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="5QE-2k-gBG">
+            <objects>
+                <navigationController id="CMk-br-Tvk" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="0bk-Xz-l4B">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="FlR-dr-cNg" kind="relationship" relationship="rootViewController" id="X2a-1e-XdA"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d17-IV-nrb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-8" y="-132"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="avatar.png" width="1258" height="1244"/>
+    </resources>
+    <classes>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="PBFlatButton" superclassName="UIButton">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/PBFlatButton.h"/>
+        </class>
+        <class className="PBFlatButtonWithIcon" superclassName="UIButton">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/PBFlatButtonWithIcon.h"/>
+        </class>
+        <class className="PBFlatRoundedImageView" superclassName="UIImageView">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/PBFlatRoundedImageView.h"/>
+        </class>
+        <class className="PBFlatSegmentedControl" superclassName="UISegmentedControl">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/PBFlatSegmentedControl.h"/>
+        </class>
+        <class className="PBFlatTextfield" superclassName="UITextField">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/PBFlatTextfield.h"/>
+        </class>
+        <class className="PBViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/PBViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="back" candidateClass="PBFlatButtonWithIcon"/>
+                <relationship kind="outlet" name="forward" candidateClass="PBFlatButtonWithIcon"/>
+                <relationship kind="outlet" name="menu" candidateClass="PBFlatButtonWithIcon"/>
+                <relationship kind="outlet" name="search" candidateClass="PBFlatButtonWithIcon"/>
+                <relationship kind="outlet" name="textField" candidateClass="PBFlatTextfield"/>
+            </relationships>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
