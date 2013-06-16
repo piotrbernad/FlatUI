@@ -17,18 +17,18 @@
 		2404969A176E0FC500EF2CE2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24049699176E0FC500EF2CE2 /* Default@2x.png */; };
 		2404969C176E0FC500EF2CE2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2404969B176E0FC500EF2CE2 /* Default-568h@2x.png */; };
 		240496A9176E0FD700EF2CE2 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 240496A8176E0FD700EF2CE2 /* MainStoryboard.storyboard */; };
-		240496BD176E110E00EF2CE2 /* PBFlatBarButtonItems.m in Sources */ = {isa = PBXBuildFile; fileRef = 240496AB176E110D00EF2CE2 /* PBFlatBarButtonItems.m */; };
-		240496BE176E110E00EF2CE2 /* PBFlatButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 240496AC176E110D00EF2CE2 /* PBFlatButton.m */; };
-		240496BF176E110E00EF2CE2 /* PBFlatButtonWithIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = 240496AE176E110D00EF2CE2 /* PBFlatButtonWithIcon.m */; };
-		240496C0176E110E00EF2CE2 /* PBFlatRoundedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 240496B0176E110D00EF2CE2 /* PBFlatRoundedImageView.m */; };
-		240496C1176E110E00EF2CE2 /* PBFlatSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 240496B2176E110D00EF2CE2 /* PBFlatSegmentedControl.m */; };
-		240496C2176E110E00EF2CE2 /* PBFlatSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 240496B4176E110D00EF2CE2 /* PBFlatSettings.m */; };
-		240496C3176E110E00EF2CE2 /* PBFlatTextfield.m in Sources */ = {isa = PBXBuildFile; fileRef = 240496B6176E110E00EF2CE2 /* PBFlatTextfield.m */; };
-		240496C4176E110E00EF2CE2 /* PBIconDrawning.m in Sources */ = {isa = PBXBuildFile; fileRef = 240496B8176E110E00EF2CE2 /* PBIconDrawning.m */; };
 		240496C5176E110E00EF2CE2 /* PBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 240496BA176E110E00EF2CE2 /* PBViewController.m */; };
-		240496C6176E110E00EF2CE2 /* UIImage+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 240496BC176E110E00EF2CE2 /* UIImage+Additions.m */; };
-		240496CD176E163100EF2CE2 /* PBBarButtonIconView.m in Sources */ = {isa = PBXBuildFile; fileRef = 240496CC176E163100EF2CE2 /* PBBarButtonIconView.m */; };
 		240496D3176E1E7200EF2CE2 /* avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = 240496D2176E1E7100EF2CE2 /* avatar.png */; };
+		240496DD176E379C00EF2CE2 /* PBFlatSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 240496DC176E379C00EF2CE2 /* PBFlatSettings.m */; };
+		240496E2176E37B800EF2CE2 /* PBBarButtonIconView.m in Sources */ = {isa = PBXBuildFile; fileRef = 240496DF176E37B800EF2CE2 /* PBBarButtonIconView.m */; };
+		240496E3176E37B800EF2CE2 /* PBFlatBarButtonItems.m in Sources */ = {isa = PBXBuildFile; fileRef = 240496E1176E37B800EF2CE2 /* PBFlatBarButtonItems.m */; };
+		240496E8176E37CA00EF2CE2 /* PBFlatButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 240496E5176E37CA00EF2CE2 /* PBFlatButton.m */; };
+		240496E9176E37CA00EF2CE2 /* PBFlatButtonWithIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = 240496E7176E37CA00EF2CE2 /* PBFlatButtonWithIcon.m */; };
+		240496EC176E37D800EF2CE2 /* PBFlatRoundedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 240496EB176E37D800EF2CE2 /* PBFlatRoundedImageView.m */; };
+		240496EF176E37E800EF2CE2 /* PBFlatSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 240496EE176E37E800EF2CE2 /* PBFlatSegmentedControl.m */; };
+		240496F2176E37F900EF2CE2 /* PBFlatTextfield.m in Sources */ = {isa = PBXBuildFile; fileRef = 240496F1176E37F900EF2CE2 /* PBFlatTextfield.m */; };
+		240496F7176E380C00EF2CE2 /* PBIconDrawning.m in Sources */ = {isa = PBXBuildFile; fileRef = 240496F4176E380C00EF2CE2 /* PBIconDrawning.m */; };
+		240496F8176E380C00EF2CE2 /* UIImage+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 240496F6176E380C00EF2CE2 /* UIImage+Additions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,29 +46,29 @@
 		24049699176E0FC500EF2CE2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		2404969B176E0FC500EF2CE2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		240496A8176E0FD700EF2CE2 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
-		240496AA176E110D00EF2CE2 /* PBFlatBarButtonItems.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBFlatBarButtonItems.h; sourceTree = "<group>"; };
-		240496AB176E110D00EF2CE2 /* PBFlatBarButtonItems.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBFlatBarButtonItems.m; sourceTree = "<group>"; };
-		240496AC176E110D00EF2CE2 /* PBFlatButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBFlatButton.m; sourceTree = "<group>"; };
-		240496AD176E110D00EF2CE2 /* PBFlatButtonWithIcon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBFlatButtonWithIcon.h; sourceTree = "<group>"; };
-		240496AE176E110D00EF2CE2 /* PBFlatButtonWithIcon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBFlatButtonWithIcon.m; sourceTree = "<group>"; };
-		240496AF176E110D00EF2CE2 /* PBFlatRoundedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBFlatRoundedImageView.h; sourceTree = "<group>"; };
-		240496B0176E110D00EF2CE2 /* PBFlatRoundedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBFlatRoundedImageView.m; sourceTree = "<group>"; };
-		240496B1176E110D00EF2CE2 /* PBFlatSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBFlatSegmentedControl.h; sourceTree = "<group>"; };
-		240496B2176E110D00EF2CE2 /* PBFlatSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBFlatSegmentedControl.m; sourceTree = "<group>"; };
-		240496B3176E110D00EF2CE2 /* PBFlatSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBFlatSettings.h; sourceTree = "<group>"; };
-		240496B4176E110D00EF2CE2 /* PBFlatSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBFlatSettings.m; sourceTree = "<group>"; };
-		240496B5176E110E00EF2CE2 /* PBFlatTextfield.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBFlatTextfield.h; sourceTree = "<group>"; };
-		240496B6176E110E00EF2CE2 /* PBFlatTextfield.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBFlatTextfield.m; sourceTree = "<group>"; };
-		240496B7176E110E00EF2CE2 /* PBIconDrawning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBIconDrawning.h; sourceTree = "<group>"; };
-		240496B8176E110E00EF2CE2 /* PBIconDrawning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBIconDrawning.m; sourceTree = "<group>"; };
 		240496B9176E110E00EF2CE2 /* PBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBViewController.h; sourceTree = "<group>"; };
 		240496BA176E110E00EF2CE2 /* PBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBViewController.m; sourceTree = "<group>"; };
-		240496BB176E110E00EF2CE2 /* UIImage+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Additions.h"; sourceTree = "<group>"; };
-		240496BC176E110E00EF2CE2 /* UIImage+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Additions.m"; sourceTree = "<group>"; };
-		240496C8176E11A200EF2CE2 /* PBFlatButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBFlatButton.h; sourceTree = "<group>"; };
-		240496CB176E163100EF2CE2 /* PBBarButtonIconView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBBarButtonIconView.h; sourceTree = "<group>"; };
-		240496CC176E163100EF2CE2 /* PBBarButtonIconView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBBarButtonIconView.m; sourceTree = "<group>"; };
 		240496D2176E1E7100EF2CE2 /* avatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avatar.png; sourceTree = "<group>"; };
+		240496DB176E379C00EF2CE2 /* PBFlatSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBFlatSettings.h; path = Classess/PBFlatSettings.h; sourceTree = "<group>"; };
+		240496DC176E379C00EF2CE2 /* PBFlatSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBFlatSettings.m; path = Classess/PBFlatSettings.m; sourceTree = "<group>"; };
+		240496DE176E37B800EF2CE2 /* PBBarButtonIconView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBBarButtonIconView.h; path = Classess/PBBarButtonIconView.h; sourceTree = "<group>"; };
+		240496DF176E37B800EF2CE2 /* PBBarButtonIconView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBBarButtonIconView.m; path = Classess/PBBarButtonIconView.m; sourceTree = "<group>"; };
+		240496E0176E37B800EF2CE2 /* PBFlatBarButtonItems.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBFlatBarButtonItems.h; path = Classess/PBFlatBarButtonItems.h; sourceTree = "<group>"; };
+		240496E1176E37B800EF2CE2 /* PBFlatBarButtonItems.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBFlatBarButtonItems.m; path = Classess/PBFlatBarButtonItems.m; sourceTree = "<group>"; };
+		240496E4176E37CA00EF2CE2 /* PBFlatButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBFlatButton.h; path = Classess/PBFlatButton.h; sourceTree = "<group>"; };
+		240496E5176E37CA00EF2CE2 /* PBFlatButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBFlatButton.m; path = Classess/PBFlatButton.m; sourceTree = "<group>"; };
+		240496E6176E37CA00EF2CE2 /* PBFlatButtonWithIcon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBFlatButtonWithIcon.h; path = Classess/PBFlatButtonWithIcon.h; sourceTree = "<group>"; };
+		240496E7176E37CA00EF2CE2 /* PBFlatButtonWithIcon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBFlatButtonWithIcon.m; path = Classess/PBFlatButtonWithIcon.m; sourceTree = "<group>"; };
+		240496EA176E37D800EF2CE2 /* PBFlatRoundedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBFlatRoundedImageView.h; path = Classess/PBFlatRoundedImageView.h; sourceTree = "<group>"; };
+		240496EB176E37D800EF2CE2 /* PBFlatRoundedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBFlatRoundedImageView.m; path = Classess/PBFlatRoundedImageView.m; sourceTree = "<group>"; };
+		240496ED176E37E800EF2CE2 /* PBFlatSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBFlatSegmentedControl.h; path = Classess/PBFlatSegmentedControl.h; sourceTree = "<group>"; };
+		240496EE176E37E800EF2CE2 /* PBFlatSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBFlatSegmentedControl.m; path = Classess/PBFlatSegmentedControl.m; sourceTree = "<group>"; };
+		240496F0176E37F900EF2CE2 /* PBFlatTextfield.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBFlatTextfield.h; path = Classess/PBFlatTextfield.h; sourceTree = "<group>"; };
+		240496F1176E37F900EF2CE2 /* PBFlatTextfield.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBFlatTextfield.m; path = Classess/PBFlatTextfield.m; sourceTree = "<group>"; };
+		240496F3176E380C00EF2CE2 /* PBIconDrawning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBIconDrawning.h; path = Classess/PBIconDrawning.h; sourceTree = "<group>"; };
+		240496F4176E380C00EF2CE2 /* PBIconDrawning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBIconDrawning.m; path = Classess/PBIconDrawning.m; sourceTree = "<group>"; };
+		240496F5176E380C00EF2CE2 /* UIImage+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+Additions.h"; path = "Classess/UIImage+Additions.h"; sourceTree = "<group>"; };
+		240496F6176E380C00EF2CE2 /* UIImage+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Additions.m"; path = "Classess/UIImage+Additions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 		2404968B176E0FC500EF2CE2 /* FlatUI */ = {
 			isa = PBXGroup;
 			children = (
-				240496B3176E110D00EF2CE2 /* PBFlatSettings.h */,
-				240496B4176E110D00EF2CE2 /* PBFlatSettings.m */,
+				240496DB176E379C00EF2CE2 /* PBFlatSettings.h */,
+				240496DC176E379C00EF2CE2 /* PBFlatSettings.m */,
 				240496B9176E110E00EF2CE2 /* PBViewController.h */,
 				240496BA176E110E00EF2CE2 /* PBViewController.m */,
 				240496A8176E0FD700EF2CE2 /* MainStoryboard.storyboard */,
@@ -149,10 +149,10 @@
 		240496D4176E1E9900EF2CE2 /* Bar Items */ = {
 			isa = PBXGroup;
 			children = (
-				240496AA176E110D00EF2CE2 /* PBFlatBarButtonItems.h */,
-				240496AB176E110D00EF2CE2 /* PBFlatBarButtonItems.m */,
-				240496CB176E163100EF2CE2 /* PBBarButtonIconView.h */,
-				240496CC176E163100EF2CE2 /* PBBarButtonIconView.m */,
+				240496DE176E37B800EF2CE2 /* PBBarButtonIconView.h */,
+				240496DF176E37B800EF2CE2 /* PBBarButtonIconView.m */,
+				240496E0176E37B800EF2CE2 /* PBFlatBarButtonItems.h */,
+				240496E1176E37B800EF2CE2 /* PBFlatBarButtonItems.m */,
 			);
 			name = "Bar Items";
 			sourceTree = "<group>";
@@ -160,10 +160,10 @@
 		240496D5176E1EA500EF2CE2 /* Buttons */ = {
 			isa = PBXGroup;
 			children = (
-				240496AC176E110D00EF2CE2 /* PBFlatButton.m */,
-				240496C8176E11A200EF2CE2 /* PBFlatButton.h */,
-				240496AD176E110D00EF2CE2 /* PBFlatButtonWithIcon.h */,
-				240496AE176E110D00EF2CE2 /* PBFlatButtonWithIcon.m */,
+				240496E4176E37CA00EF2CE2 /* PBFlatButton.h */,
+				240496E5176E37CA00EF2CE2 /* PBFlatButton.m */,
+				240496E6176E37CA00EF2CE2 /* PBFlatButtonWithIcon.h */,
+				240496E7176E37CA00EF2CE2 /* PBFlatButtonWithIcon.m */,
 			);
 			name = Buttons;
 			sourceTree = "<group>";
@@ -171,8 +171,8 @@
 		240496D6176E1EB100EF2CE2 /* Image View */ = {
 			isa = PBXGroup;
 			children = (
-				240496AF176E110D00EF2CE2 /* PBFlatRoundedImageView.h */,
-				240496B0176E110D00EF2CE2 /* PBFlatRoundedImageView.m */,
+				240496EA176E37D800EF2CE2 /* PBFlatRoundedImageView.h */,
+				240496EB176E37D800EF2CE2 /* PBFlatRoundedImageView.m */,
 			);
 			name = "Image View";
 			sourceTree = "<group>";
@@ -180,8 +180,8 @@
 		240496D7176E1EB800EF2CE2 /* Segmented Control */ = {
 			isa = PBXGroup;
 			children = (
-				240496B1176E110D00EF2CE2 /* PBFlatSegmentedControl.h */,
-				240496B2176E110D00EF2CE2 /* PBFlatSegmentedControl.m */,
+				240496ED176E37E800EF2CE2 /* PBFlatSegmentedControl.h */,
+				240496EE176E37E800EF2CE2 /* PBFlatSegmentedControl.m */,
 			);
 			name = "Segmented Control";
 			sourceTree = "<group>";
@@ -189,8 +189,8 @@
 		240496D8176E1EC300EF2CE2 /* TextField */ = {
 			isa = PBXGroup;
 			children = (
-				240496B5176E110E00EF2CE2 /* PBFlatTextfield.h */,
-				240496B6176E110E00EF2CE2 /* PBFlatTextfield.m */,
+				240496F0176E37F900EF2CE2 /* PBFlatTextfield.h */,
+				240496F1176E37F900EF2CE2 /* PBFlatTextfield.m */,
 			);
 			name = TextField;
 			sourceTree = "<group>";
@@ -200,10 +200,10 @@
 			children = (
 				24049694176E0FC500EF2CE2 /* PBFlatAppDelegate.h */,
 				24049695176E0FC500EF2CE2 /* PBFlatAppDelegate.m */,
-				240496B7176E110E00EF2CE2 /* PBIconDrawning.h */,
-				240496B8176E110E00EF2CE2 /* PBIconDrawning.m */,
-				240496BB176E110E00EF2CE2 /* UIImage+Additions.h */,
-				240496BC176E110E00EF2CE2 /* UIImage+Additions.m */,
+				240496F3176E380C00EF2CE2 /* PBIconDrawning.h */,
+				240496F4176E380C00EF2CE2 /* PBIconDrawning.m */,
+				240496F5176E380C00EF2CE2 /* UIImage+Additions.h */,
+				240496F6176E380C00EF2CE2 /* UIImage+Additions.m */,
 			);
 			name = Others;
 			sourceTree = "<group>";
@@ -286,17 +286,17 @@
 			files = (
 				24049692176E0FC500EF2CE2 /* main.m in Sources */,
 				24049696176E0FC500EF2CE2 /* PBFlatAppDelegate.m in Sources */,
-				240496BD176E110E00EF2CE2 /* PBFlatBarButtonItems.m in Sources */,
-				240496BE176E110E00EF2CE2 /* PBFlatButton.m in Sources */,
-				240496BF176E110E00EF2CE2 /* PBFlatButtonWithIcon.m in Sources */,
-				240496C0176E110E00EF2CE2 /* PBFlatRoundedImageView.m in Sources */,
-				240496C1176E110E00EF2CE2 /* PBFlatSegmentedControl.m in Sources */,
-				240496C2176E110E00EF2CE2 /* PBFlatSettings.m in Sources */,
-				240496C3176E110E00EF2CE2 /* PBFlatTextfield.m in Sources */,
-				240496C4176E110E00EF2CE2 /* PBIconDrawning.m in Sources */,
 				240496C5176E110E00EF2CE2 /* PBViewController.m in Sources */,
-				240496C6176E110E00EF2CE2 /* UIImage+Additions.m in Sources */,
-				240496CD176E163100EF2CE2 /* PBBarButtonIconView.m in Sources */,
+				240496DD176E379C00EF2CE2 /* PBFlatSettings.m in Sources */,
+				240496E2176E37B800EF2CE2 /* PBBarButtonIconView.m in Sources */,
+				240496E3176E37B800EF2CE2 /* PBFlatBarButtonItems.m in Sources */,
+				240496E8176E37CA00EF2CE2 /* PBFlatButton.m in Sources */,
+				240496E9176E37CA00EF2CE2 /* PBFlatButtonWithIcon.m in Sources */,
+				240496EC176E37D800EF2CE2 /* PBFlatRoundedImageView.m in Sources */,
+				240496EF176E37E800EF2CE2 /* PBFlatSegmentedControl.m in Sources */,
+				240496F2176E37F900EF2CE2 /* PBFlatTextfield.m in Sources */,
+				240496F7176E380C00EF2CE2 /* PBIconDrawning.m in Sources */,
+				240496F8176E380C00EF2CE2 /* UIImage+Additions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +411,7 @@
 				240496A7176E0FC500EF2CE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
