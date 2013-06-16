@@ -16,7 +16,6 @@
 		24049698176E0FC500EF2CE2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 24049697176E0FC500EF2CE2 /* Default.png */; };
 		2404969A176E0FC500EF2CE2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24049699176E0FC500EF2CE2 /* Default@2x.png */; };
 		2404969C176E0FC500EF2CE2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2404969B176E0FC500EF2CE2 /* Default-568h@2x.png */; };
-		240496A2176E0FC500EF2CE2 /* PBFlatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 240496A1176E0FC500EF2CE2 /* PBFlatViewController.m */; };
 		240496A9176E0FD700EF2CE2 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 240496A8176E0FD700EF2CE2 /* MainStoryboard.storyboard */; };
 		240496BD176E110E00EF2CE2 /* PBFlatBarButtonItems.m in Sources */ = {isa = PBXBuildFile; fileRef = 240496AB176E110D00EF2CE2 /* PBFlatBarButtonItems.m */; };
 		240496BE176E110E00EF2CE2 /* PBFlatButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 240496AC176E110D00EF2CE2 /* PBFlatButton.m */; };
@@ -28,8 +27,8 @@
 		240496C4176E110E00EF2CE2 /* PBIconDrawning.m in Sources */ = {isa = PBXBuildFile; fileRef = 240496B8176E110E00EF2CE2 /* PBIconDrawning.m */; };
 		240496C5176E110E00EF2CE2 /* PBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 240496BA176E110E00EF2CE2 /* PBViewController.m */; };
 		240496C6176E110E00EF2CE2 /* UIImage+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 240496BC176E110E00EF2CE2 /* UIImage+Additions.m */; };
-		240496CA176E120C00EF2CE2 /* avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = 240496C9176E120C00EF2CE2 /* avatar.png */; };
 		240496CD176E163100EF2CE2 /* PBBarButtonIconView.m in Sources */ = {isa = PBXBuildFile; fileRef = 240496CC176E163100EF2CE2 /* PBBarButtonIconView.m */; };
+		240496D3176E1E7200EF2CE2 /* avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = 240496D2176E1E7100EF2CE2 /* avatar.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,8 +45,6 @@
 		24049697176E0FC500EF2CE2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		24049699176E0FC500EF2CE2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		2404969B176E0FC500EF2CE2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		240496A0176E0FC500EF2CE2 /* PBFlatViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PBFlatViewController.h; sourceTree = "<group>"; };
-		240496A1176E0FC500EF2CE2 /* PBFlatViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PBFlatViewController.m; sourceTree = "<group>"; };
 		240496A8176E0FD700EF2CE2 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
 		240496AA176E110D00EF2CE2 /* PBFlatBarButtonItems.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBFlatBarButtonItems.h; sourceTree = "<group>"; };
 		240496AB176E110D00EF2CE2 /* PBFlatBarButtonItems.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBFlatBarButtonItems.m; sourceTree = "<group>"; };
@@ -68,11 +65,10 @@
 		240496BA176E110E00EF2CE2 /* PBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBViewController.m; sourceTree = "<group>"; };
 		240496BB176E110E00EF2CE2 /* UIImage+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Additions.h"; sourceTree = "<group>"; };
 		240496BC176E110E00EF2CE2 /* UIImage+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Additions.m"; sourceTree = "<group>"; };
-		240496C7176E117D00EF2CE2 /* UIColor+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Additions.h"; sourceTree = "<group>"; };
 		240496C8176E11A200EF2CE2 /* PBFlatButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBFlatButton.h; sourceTree = "<group>"; };
-		240496C9176E120C00EF2CE2 /* avatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avatar.png; sourceTree = "<group>"; };
 		240496CB176E163100EF2CE2 /* PBBarButtonIconView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBBarButtonIconView.h; sourceTree = "<group>"; };
 		240496CC176E163100EF2CE2 /* PBBarButtonIconView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBBarButtonIconView.m; sourceTree = "<group>"; };
+		240496D2176E1E7100EF2CE2 /* avatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avatar.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,35 +115,18 @@
 		2404968B176E0FC500EF2CE2 /* FlatUI */ = {
 			isa = PBXGroup;
 			children = (
-				240496C9176E120C00EF2CE2 /* avatar.png */,
-				240496AA176E110D00EF2CE2 /* PBFlatBarButtonItems.h */,
-				240496AB176E110D00EF2CE2 /* PBFlatBarButtonItems.m */,
-				240496CB176E163100EF2CE2 /* PBBarButtonIconView.h */,
-				240496CC176E163100EF2CE2 /* PBBarButtonIconView.m */,
-				240496AC176E110D00EF2CE2 /* PBFlatButton.m */,
-				240496C8176E11A200EF2CE2 /* PBFlatButton.h */,
-				240496AD176E110D00EF2CE2 /* PBFlatButtonWithIcon.h */,
-				240496AE176E110D00EF2CE2 /* PBFlatButtonWithIcon.m */,
-				240496AF176E110D00EF2CE2 /* PBFlatRoundedImageView.h */,
-				240496B0176E110D00EF2CE2 /* PBFlatRoundedImageView.m */,
-				240496B1176E110D00EF2CE2 /* PBFlatSegmentedControl.h */,
-				240496B2176E110D00EF2CE2 /* PBFlatSegmentedControl.m */,
 				240496B3176E110D00EF2CE2 /* PBFlatSettings.h */,
 				240496B4176E110D00EF2CE2 /* PBFlatSettings.m */,
-				240496B5176E110E00EF2CE2 /* PBFlatTextfield.h */,
-				240496B6176E110E00EF2CE2 /* PBFlatTextfield.m */,
-				240496B7176E110E00EF2CE2 /* PBIconDrawning.h */,
-				240496B8176E110E00EF2CE2 /* PBIconDrawning.m */,
 				240496B9176E110E00EF2CE2 /* PBViewController.h */,
 				240496BA176E110E00EF2CE2 /* PBViewController.m */,
-				240496BB176E110E00EF2CE2 /* UIImage+Additions.h */,
-				240496BC176E110E00EF2CE2 /* UIImage+Additions.m */,
-				24049694176E0FC500EF2CE2 /* PBFlatAppDelegate.h */,
-				24049695176E0FC500EF2CE2 /* PBFlatAppDelegate.m */,
 				240496A8176E0FD700EF2CE2 /* MainStoryboard.storyboard */,
-				240496A0176E0FC500EF2CE2 /* PBFlatViewController.h */,
-				240496A1176E0FC500EF2CE2 /* PBFlatViewController.m */,
-				240496C7176E117D00EF2CE2 /* UIColor+Additions.h */,
+				240496D4176E1E9900EF2CE2 /* Bar Items */,
+				240496D5176E1EA500EF2CE2 /* Buttons */,
+				240496D6176E1EB100EF2CE2 /* Image View */,
+				240496D7176E1EB800EF2CE2 /* Segmented Control */,
+				240496D8176E1EC300EF2CE2 /* TextField */,
+				240496D9176E1ECF00EF2CE2 /* Others */,
+				240496DA176E1F0200EF2CE2 /* Resources */,
 				2404968C176E0FC500EF2CE2 /* Supporting Files */,
 			);
 			path = FlatUI;
@@ -165,6 +144,76 @@
 				2404969B176E0FC500EF2CE2 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		240496D4176E1E9900EF2CE2 /* Bar Items */ = {
+			isa = PBXGroup;
+			children = (
+				240496AA176E110D00EF2CE2 /* PBFlatBarButtonItems.h */,
+				240496AB176E110D00EF2CE2 /* PBFlatBarButtonItems.m */,
+				240496CB176E163100EF2CE2 /* PBBarButtonIconView.h */,
+				240496CC176E163100EF2CE2 /* PBBarButtonIconView.m */,
+			);
+			name = "Bar Items";
+			sourceTree = "<group>";
+		};
+		240496D5176E1EA500EF2CE2 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				240496AC176E110D00EF2CE2 /* PBFlatButton.m */,
+				240496C8176E11A200EF2CE2 /* PBFlatButton.h */,
+				240496AD176E110D00EF2CE2 /* PBFlatButtonWithIcon.h */,
+				240496AE176E110D00EF2CE2 /* PBFlatButtonWithIcon.m */,
+			);
+			name = Buttons;
+			sourceTree = "<group>";
+		};
+		240496D6176E1EB100EF2CE2 /* Image View */ = {
+			isa = PBXGroup;
+			children = (
+				240496AF176E110D00EF2CE2 /* PBFlatRoundedImageView.h */,
+				240496B0176E110D00EF2CE2 /* PBFlatRoundedImageView.m */,
+			);
+			name = "Image View";
+			sourceTree = "<group>";
+		};
+		240496D7176E1EB800EF2CE2 /* Segmented Control */ = {
+			isa = PBXGroup;
+			children = (
+				240496B1176E110D00EF2CE2 /* PBFlatSegmentedControl.h */,
+				240496B2176E110D00EF2CE2 /* PBFlatSegmentedControl.m */,
+			);
+			name = "Segmented Control";
+			sourceTree = "<group>";
+		};
+		240496D8176E1EC300EF2CE2 /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				240496B5176E110E00EF2CE2 /* PBFlatTextfield.h */,
+				240496B6176E110E00EF2CE2 /* PBFlatTextfield.m */,
+			);
+			name = TextField;
+			sourceTree = "<group>";
+		};
+		240496D9176E1ECF00EF2CE2 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				24049694176E0FC500EF2CE2 /* PBFlatAppDelegate.h */,
+				24049695176E0FC500EF2CE2 /* PBFlatAppDelegate.m */,
+				240496B7176E110E00EF2CE2 /* PBIconDrawning.h */,
+				240496B8176E110E00EF2CE2 /* PBIconDrawning.m */,
+				240496BB176E110E00EF2CE2 /* UIImage+Additions.h */,
+				240496BC176E110E00EF2CE2 /* UIImage+Additions.m */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		240496DA176E1F0200EF2CE2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				240496D2176E1E7100EF2CE2 /* avatar.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,7 +273,7 @@
 				2404969A176E0FC500EF2CE2 /* Default@2x.png in Resources */,
 				2404969C176E0FC500EF2CE2 /* Default-568h@2x.png in Resources */,
 				240496A9176E0FD700EF2CE2 /* MainStoryboard.storyboard in Resources */,
-				240496CA176E120C00EF2CE2 /* avatar.png in Resources */,
+				240496D3176E1E7200EF2CE2 /* avatar.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,7 +286,6 @@
 			files = (
 				24049692176E0FC500EF2CE2 /* main.m in Sources */,
 				24049696176E0FC500EF2CE2 /* PBFlatAppDelegate.m in Sources */,
-				240496A2176E0FC500EF2CE2 /* PBFlatViewController.m in Sources */,
 				240496BD176E110E00EF2CE2 /* PBFlatBarButtonItems.m in Sources */,
 				240496BE176E110E00EF2CE2 /* PBFlatButton.m in Sources */,
 				240496BF176E110E00EF2CE2 /* PBFlatButtonWithIcon.m in Sources */,

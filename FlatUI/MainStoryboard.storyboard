@@ -120,6 +120,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="3JG-Cv-lav" firstAttribute="top" secondItem="qmF-u3-0LA" secondAttribute="bottom" constant="15" type="user" id="08H-FO-VUe"/>
+                            <constraint firstItem="4Tc-gN-bnJ" firstAttribute="top" secondItem="ZMZ-VA-Ptb" secondAttribute="top" constant="159" id="13F-eT-0Lp"/>
                             <constraint firstItem="M3l-k6-OeP" firstAttribute="top" secondItem="ZMZ-VA-Ptb" secondAttribute="top" constant="160" id="2Yq-Zd-LGQ"/>
                             <constraint firstItem="ybS-qD-UrO" firstAttribute="centerY" secondItem="3JG-Cv-lav" secondAttribute="centerY" type="user" id="4RK-ht-OrK"/>
                             <constraint firstItem="ybS-qD-UrO" firstAttribute="centerY" secondItem="fIA-YW-t8y" secondAttribute="centerY" type="user" id="5Yx-pI-6Z1"/>
@@ -130,7 +131,6 @@
                             <constraint firstItem="ybS-qD-UrO" firstAttribute="top" secondItem="fIA-YW-t8y" secondAttribute="top" type="user" id="Jbw-M9-vaN"/>
                             <constraint firstItem="M3l-k6-OeP" firstAttribute="leading" secondItem="yRy-9R-hOE" secondAttribute="leading" type="user" id="O26-gV-vAv"/>
                             <constraint firstItem="k7P-eS-TWo" firstAttribute="leading" secondItem="qmF-u3-0LA" secondAttribute="leading" type="default" id="PEX-ka-bOI"/>
-                            <constraint firstItem="4Tc-gN-bnJ" firstAttribute="top" secondItem="M3l-k6-OeP" secondAttribute="top" type="default" id="SUm-km-cVQ"/>
                             <constraint firstItem="ybS-qD-UrO" firstAttribute="leading" secondItem="1ZV-qu-Ngn" secondAttribute="leading" type="default" id="SfS-4C-ctx"/>
                             <constraint firstItem="3JG-Cv-lav" firstAttribute="trailing" secondItem="qmF-u3-0LA" secondAttribute="trailing" type="default" id="WHf-mQ-3Rf"/>
                             <constraint firstItem="1ZV-qu-Ngn" firstAttribute="top" secondItem="ZMZ-VA-Ptb" secondAttribute="top" constant="32" id="WSc-6W-npu"/>
@@ -179,7 +179,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="avatar.png" width="1258" height="1244"/>
+        <image name="avatar.png" width="338" height="340"/>
     </resources>
     <classes>
         <class className="NSLayoutConstraint" superclassName="NSObject">
