@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
 	s.author = {
 		'Piotr Bernad' => 'piotrbernadd@gmail.com'
 	}
-	s.ios.deployment_target = '5.0'
+	s.ios.deployment_target = '6.0'
 	s.license      = 'MIT'
 	s.source = {
 	:git => 'https://github.com/piotrbernad/FlatUI.git',
