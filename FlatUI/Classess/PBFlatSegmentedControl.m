@@ -26,6 +26,16 @@
     }
     return self;
 }
+- (id)initWithItems:(NSArray *)items {
+    self = [super initWithItems:items];
+    if (self) {
+        [self apperance];
+        self.layer.cornerRadius = 5.0f;
+        self.layer.borderWidth = 1.0f;
+        self.layer.borderColor = [[PBFlatSettings sharedInstance] mainColor].CGColor;
+    }
+    return self;
+}
 - (void)layoutSubviews {
     [super layoutSubviews];
     _rect = self.bounds;
@@ -35,16 +45,13 @@
     UIImage *normalBackgroundImage = [UIImage imageWithColor:[[PBFlatSettings sharedInstance] mainColor] size:CGSizeMake(10.0f, 40.0f) andRoundSize:5.0f];
     UIImage *selectedBackgroundImage = [UIImage imageWithColor:[UIColor clearColor] size:CGSizeMake(10.0f, 40.0f) andRoundSize:5.0f];
     
-    NSDictionary *attributes = [NSDictionary dictionaryWithObjectsAndKeys:
-                                [[PBFlatSettings sharedInstance] font], UITextAttributeFont,
-                                [[PBFlatSettings sharedInstance] mainColor], UITextAttributeTextColor,
-                                UIOffsetZero,UITextAttributeTextShadowOffset,
-                                [UIColor clearColor],UITextAttributeTextShadowColor,
-                                nil];
+    NSDictionary *attributes = @{UITextAttributeFont: [[PBFlatSettings sharedInstance] font],
+                                UITextAttributeTextColor: [[PBFlatSettings sharedInstance] mainColor],
+                                UITextAttributeTextShadowOffset: [NSValue valueWithUIOffset:UIOffsetZero],
+                                UITextAttributeTextShadowColor: [UIColor clearColor]};
     [self setTitleTextAttributes:attributes forState:UIControlStateNormal];
     
-    NSDictionary *highlightedAttributes = [NSDictionary
-                                           dictionaryWithObject:[UIColor whiteColor] forKey:UITextAttributeTextColor];
+    NSDictionary *highlightedAttributes = @{UITextAttributeTextColor: [UIColor whiteColor]};
     [self setTitleTextAttributes:highlightedAttributes forState:UIControlStateHighlighted];
     
     [self setBackgroundImage:selectedBackgroundImage
