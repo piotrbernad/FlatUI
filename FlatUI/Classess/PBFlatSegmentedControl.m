@@ -26,6 +26,16 @@
     }
     return self;
 }
+- (id)initWithItems:(NSArray *)items {
+    self = [super initWithItems:items];
+    if (self) {
+        [self apperance];
+        self.layer.cornerRadius = 5.0f;
+        self.layer.borderWidth = 1.0f;
+        self.layer.borderColor = [[PBFlatSettings sharedInstance] mainColor].CGColor;
+    }
+    return self;
+}
 - (void)layoutSubviews {
     [super layoutSubviews];
     _rect = self.bounds;
