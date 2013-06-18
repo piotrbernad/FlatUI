@@ -1,0 +1,2 @@
+1.0.0 - base Version
+1.1.0 - Bar button items custom view now will be UIButton instead of UIView. Added PBFlatGroupedTableViewController, and PBFlatGroupedCell. 
