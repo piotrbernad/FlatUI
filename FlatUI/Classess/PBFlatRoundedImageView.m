@@ -13,9 +13,21 @@
 
 - (void)awakeFromNib {
     [super awakeFromNib];
-    self.layer.cornerRadius = 50.0f;
     self.layer.borderColor = [[PBFlatSettings sharedInstance] mainColor].CGColor;
     self.layer.borderWidth = 1.0f;
     self.layer.masksToBounds = YES;
 }
+
+-(void)layoutSubviews {
+    [super layoutSubviews];
+    self.layer.cornerRadius = CGRectGetWidth(self.bounds)/2.0f;
+}
+
++ (PBFlatRoundedImageView *)contactImageViewWithImage:(UIImage *)image {
+    PBFlatRoundedImageView *imageView = [[PBFlatRoundedImageView alloc] initWithImage:image];
+    imageView.layer.masksToBounds = YES;
+    return imageView;
+}
+
+
 @end

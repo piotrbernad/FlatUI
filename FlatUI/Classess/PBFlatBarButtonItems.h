@@ -9,14 +9,13 @@
 #import <UIKit/UIKit.h>
 #import "PBFlatSettings.h"
 #import "PBIconDrawning.h"
-#import "PBBarButtonIconView.h"
+#import "PBBarButtonIconButton.h"
 
 @interface PBFlatBarButtonItems : UIBarButtonItem
-+ (UIBarButtonItem *)addBarButtonItem;
-+ (UIBarButtonItem *)moreBarButtonItem;
-+ (UIBarButtonItem *)menuBarButtonItem;
-+ (UIBarButtonItem *)searchBarButtonItem;
-+ (UIBarButtonItem *)backBarButtonItem;
-+ (UIBarButtonItem *)forwardBarButtonItem;
-
++ (UIBarButtonItem *)addBarButtonItemWithTarget:(id)target selector:(SEL)selector;
++ (UIBarButtonItem *)moreBarButtonItemWithTarget:(id)target selector:(SEL)selector;
++ (UIBarButtonItem *)menuBarButtonItemWithTarget:(id)target selector:(SEL)selector;
++ (UIBarButtonItem *)searchBarButtonItemWithTarget:(id)target selector:(SEL)selector;
++ (UIBarButtonItem *)backBarButtonItemWithTarget:(id)target selector:(SEL)selector;
++ (UIBarButtonItem *)forwardBarButtonItemWithTarget:(id)target selector:(SEL)selector;
 @end

@@ -18,5 +18,5 @@ typedef enum {
 
 @interface PBIconDrawning : NSObject
 + (void)drawIconInRect:(CGRect)rect withType:(PBFlatIconType)type color:(UIColor *)color;
-+ (UIImage *)iconImageWithSize:(CGSize)size withType:(PBFlatIconType)type;
++ (UIImage *)iconImageWithSize:(CGSize)size withType:(PBFlatIconType)type inverseColor:(BOOL)inverse;
 @end

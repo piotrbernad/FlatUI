@@ -19,8 +19,9 @@
     [super viewDidLoad];
     [self.view setBackgroundColor:[UIColor colorWithRed:0.97f green:0.97f blue:0.97f alpha:1.00f]];
     
-    [self.navigationItem setRightBarButtonItem:[PBFlatBarButtonItems addBarButtonItem]];
-        [self.navigationItem setLeftBarButtonItem:[PBFlatBarButtonItems moreBarButtonItem]];
+    [self.navigationItem setRightBarButtonItem:[PBFlatBarButtonItems addBarButtonItemWithTarget:nil selector:nil]];
+    [self.navigationItem setLeftBarButtonItem:[PBFlatBarButtonItems moreBarButtonItemWithTarget:self selector:@selector(showLeftMenu:)]];
+    
 
     [_textField setDelegate:self];
     
@@ -29,6 +30,10 @@
     [_menu setType:PBFlatIconMenu];
     [_search setType:PBFlatIconSearch];
     
+}
+
+-(void)showLeftMenu:(UIBarButtonItem *)sender {
+    [self performSegueWithIdentifier:@"leftMenu" sender:sender];
 }
 
 - (BOOL)textFieldShouldReturn:(UITextField *)textField {

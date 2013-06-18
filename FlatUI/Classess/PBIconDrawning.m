@@ -38,11 +38,11 @@
     }
 }
 
-+ (UIImage *)iconImageWithSize:(CGSize)size withType:(PBFlatIconType)type {
++ (UIImage *)iconImageWithSize:(CGSize)size withType:(PBFlatIconType)type inverseColor:(BOOL)inverse {
     CGRect rect = CGRectMake(0.0f, 0.0f, size.width, size.height);
     UIGraphicsBeginImageContextWithOptions(rect.size, NO, 0);
 
-    [self drawIconInRect:rect withType:type color:[[PBFlatSettings sharedInstance] iconImageColor]];
+    [self drawIconInRect:rect withType:type color: inverse ? [[PBFlatSettings sharedInstance] mainColor] :[[PBFlatSettings sharedInstance] iconImageColor]];
     
     UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
     UIGraphicsEndImageContext();

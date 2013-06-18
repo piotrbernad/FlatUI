@@ -43,7 +43,7 @@
     [self setTitleColor:[UIColor whiteColor] forState:UIControlStateHighlighted];
     [self setTitleColor:[UIColor whiteColor] forState:UIControlStateSelected];
     [self.titleLabel setFont:[[PBFlatSettings sharedInstance] font]];
-    [self setImage:[PBIconDrawning iconImageWithSize:CGSizeMake(30, 30) withType:_type] forState:UIControlStateNormal];
+    [self setImage:[PBIconDrawning iconImageWithSize:CGSizeMake(30, 30) withType:_type inverseColor:NO] forState:UIControlStateNormal];
 }
 
 - (void)drawRect:(CGRect)rect

@@ -7,32 +7,38 @@
 //
 
 #import "PBFlatBarButtonItems.h"
-
+#import "PBFlatButtonWithIcon.h"
+#import "PBBarButtonIconButton.h"
 
 @implementation PBFlatBarButtonItems
 
-+ (UIBarButtonItem *)barButtonItemWithIconType:(PBFlatIconType)iconType {
-    UIBarButtonItem *_barButtonItem = [[UIBarButtonItem alloc] initWithCustomView:[[PBBarButtonIconView alloc] initWithFrame:CGRectMake(0, 0, 30, 30) andWithType:iconType]];
++ (UIBarButtonItem *)barButtonItemWithIconType:(PBFlatIconType)iconType withTarget:(id)target selector:(SEL)selector {
+
+    PBBarButtonIconButton *button = [[PBBarButtonIconButton alloc] initWithFrame:CGRectMake(0, 0, 30, 30)];
+    [button addTarget:target action:selector forControlEvents:UIControlEventTouchUpInside];
+    [button setType:iconType];
+    
+    UIBarButtonItem *_barButtonItem = [[UIBarButtonItem alloc] initWithCustomView:button];
     return _barButtonItem;
 }
 
-+ (UIBarButtonItem *)addBarButtonItem {
-   return [self barButtonItemWithIconType:PBFlatIconAdd];
++ (UIBarButtonItem *)addBarButtonItemWithTarget:(id)target selector:(SEL)selector {
+   return [self barButtonItemWithIconType:PBFlatIconAdd withTarget:target selector:selector];
 }
-+ (UIBarButtonItem *)moreBarButtonItem {
-    return [self barButtonItemWithIconType:PBFlatIconMore];
++ (UIBarButtonItem *)moreBarButtonItemWithTarget:(id)target selector:(SEL)selector {
+    return [self barButtonItemWithIconType:PBFlatIconMore withTarget:target selector:selector];
 }
-+ (UIBarButtonItem *)menuBarButtonItem {
-    return [self barButtonItemWithIconType:PBFlatIconMenu];
++ (UIBarButtonItem *)menuBarButtonItemWithTarget:(id)target selector:(SEL)selector {
+    return [self barButtonItemWithIconType:PBFlatIconMenu withTarget:target selector:selector];
 }
-+ (UIBarButtonItem *)searchBarButtonItem {
-    return [self barButtonItemWithIconType:PBFlatIconSearch];
++ (UIBarButtonItem *)searchBarButtonItemWithTarget:(id)target selector:(SEL)selector {
+    return [self barButtonItemWithIconType:PBFlatIconSearch withTarget:target selector:selector];
 }
-+ (UIBarButtonItem *)backBarButtonItem {
-    return [self barButtonItemWithIconType:PBFlatIconBack];
++ (UIBarButtonItem *)backBarButtonItemWithTarget:(id)target selector:(SEL)selector {
+    return [self barButtonItemWithIconType:PBFlatIconBack withTarget:target selector:selector];
 }
-+ (UIBarButtonItem *)forwardBarButtonItem {
-    return [self barButtonItemWithIconType:PBFlatIconForward];
++ (UIBarButtonItem *)forwardBarButtonItemWithTarget:(id)target selector:(SEL)selector {
+    return [self barButtonItemWithIconType:PBFlatIconForward withTarget:target selector:selector];
 }
 
 @end

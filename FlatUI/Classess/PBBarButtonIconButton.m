@@ -1,15 +1,15 @@
 //
-//  PBBarButtonIconView.m
+//  PBBarButtonIconButton.m
 //  FlatUI
 //
 //  Created by Piotr Bernad on 16.06.2013.
 //  Copyright (c) 2013 Piotr Bernad. All rights reserved.
 //
 
-#import "PBBarButtonIconView.h"
+#import "PBBarButtonIconButton.h"
 #import "PBFlatSettings.h"
 
-@implementation PBBarButtonIconView {
+@implementation PBBarButtonIconButton {
     PBFlatIconType _type;
 }
 -(id)initWithFrame:(CGRect)frame andWithType:(PBFlatIconType)type {
@@ -23,6 +23,10 @@
 -(void)drawRect:(CGRect)rect {
     [PBIconDrawning drawIconInRect:rect withType:_type color:[[PBFlatSettings sharedInstance] mainColor]];
     
+}
+- (void)setType:(PBFlatIconType)type {
+    _type = type;
+    [self setNeedsDisplay];
 }
 
 @end

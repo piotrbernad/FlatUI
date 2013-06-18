@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface PBFlatRoundedImageView : UIImageView
-
++ (PBFlatRoundedImageView *)contactImageViewWithImage:(UIImage *)image;
 @end

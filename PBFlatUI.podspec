@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 	s.name 	= 'PBFlatUI'
-	s.version = '1.0.0'
+	s.version = '1.1.0'
 	s.requires_arc = true
 	s.author = {
 		'Piotr Bernad' => 'piotrbernadd@gmail.com'

@@ -1,5 +1,5 @@
 //
-//  PBBarButtonIconView.h
+//  PBBarButtonIconButton.h
 //  FlatUI
 //
 //  Created by Piotr Bernad on 16.06.2013.
@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "PBIconDrawning.h"
 
-@interface PBBarButtonIconView : UIView
--(id)initWithFrame:(CGRect)frame andWithType:(PBFlatIconType)type;
+@interface PBBarButtonIconButton : UIButton
+- (id)initWithFrame:(CGRect)frame andWithType:(PBFlatIconType)type;
+- (void)setType:(PBFlatIconType)type;
 @end

@@ -153,11 +153,49 @@
                         <outlet property="menu" destination="fIA-YW-t8y" id="Xjs-sb-qZQ"/>
                         <outlet property="search" destination="3JG-Cv-lav" id="A0R-xT-keb"/>
                         <outlet property="textField" destination="M3l-k6-OeP" id="OSh-OV-mia"/>
+                        <segue destination="nRU-LO-n4t" kind="push" identifier="leftMenu" id="t4E-bF-t89"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MKh-v9-pgX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="518" y="-132"/>
+        </scene>
+        <!--Example TableVC-->
+        <scene sceneID="cSy-tg-gBs">
+            <objects>
+                <tableViewController id="nRU-LO-n4t" customClass="PBExampleTableVC" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="er4-q2-4u2">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" textLabel="h5x-Sm-wT6" style="IBUITableViewCellStyleDefault" id="OPa-nd-cb2" customClass="PBFlatGroupedStyleCell">
+                                <rect key="frame" x="0.0" y="22" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h5x-Sm-wT6">
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="nRU-LO-n4t" id="4h9-7x-5TU"/>
+                            <outlet property="delegate" destination="nRU-LO-n4t" id="wtH-6C-MEr"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="gYL-LK-v44"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sP1-wK-cUD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1012" y="-109"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="5QE-2k-gBG">
@@ -185,11 +223,20 @@
         <class className="NSLayoutConstraint" superclassName="NSObject">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
         </class>
+        <class className="PBExampleTableVC" superclassName="PBFlatGroupedTableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/PBExampleTableVC.h"/>
+        </class>
         <class className="PBFlatButton" superclassName="UIButton">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/PBFlatButton.h"/>
         </class>
         <class className="PBFlatButtonWithIcon" superclassName="UIButton">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/PBFlatButtonWithIcon.h"/>
+        </class>
+        <class className="PBFlatGroupedStyleCell" superclassName="UITableViewCell">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/PBFlatGroupedStyleCell.h"/>
+        </class>
+        <class className="PBFlatGroupedTableViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/PBFlatGroupedTableViewController.h"/>
         </class>
         <class className="PBFlatRoundedImageView" superclassName="UIImageView">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/PBFlatRoundedImageView.h"/>
