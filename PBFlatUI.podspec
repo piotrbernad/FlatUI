@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
 	s.homepage = 'http://github.com/piotrbernad/FlatUI'
 	s.source = {
 	:git => 'https://github.com/piotrbernad/FlatUI.git',
-	:tag => "1.0.0"
+	:tag => "1.1.0"
 	}
 	s.source_files = 'FlatUI/Classess/*.{h,m}'
 end
