@@ -128,8 +128,8 @@
 		24C89DBB1770A1CA009945B2 /* cn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cn.png; sourceTree = "<group>"; };
 		24C89DBC1770A1CA009945B2 /* js.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = js.png; sourceTree = "<group>"; };
 		24C89DBD1770A1CA009945B2 /* tl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tl.png; sourceTree = "<group>"; };
-		24D510C9176F9EE000529935 /* PBFlatGroupedTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBFlatGroupedTableViewController.h; sourceTree = "<group>"; };
-		24D510CA176F9EE000529935 /* PBFlatGroupedTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBFlatGroupedTableViewController.m; sourceTree = "<group>"; };
+		24D510C9176F9EE000529935 /* PBFlatGroupedTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBFlatGroupedTableViewController.h; path = Classess/PBFlatGroupedTableViewController.h; sourceTree = "<group>"; };
+		24D510CA176F9EE000529935 /* PBFlatGroupedTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBFlatGroupedTableViewController.m; path = Classess/PBFlatGroupedTableViewController.m; sourceTree = "<group>"; };
 		24D510CD176FA5DA00529935 /* PBExampleTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBExampleTableVC.h; sourceTree = "<group>"; };
 		24D510CE176FA5DA00529935 /* PBExampleTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBExampleTableVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
