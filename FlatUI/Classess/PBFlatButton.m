@@ -54,11 +54,11 @@
 }
 
 - (void)drawRect:(CGRect)rect {
-    UIBezierPath* roundedRectanglePath = [UIBezierPath bezierPathWithRoundedRect: rect cornerRadius: 5];
+    UIBezierPath* roundedRectanglePath = [UIBezierPath bezierPathWithRoundedRect: CGRectInset(rect,1,1) cornerRadius: 5];
     [_backgroundColor setFill];
     [roundedRectanglePath fill];
     [_mainColor setStroke];
-    roundedRectanglePath.lineWidth = 2;
+    roundedRectanglePath.lineWidth = 1;
     [roundedRectanglePath stroke];
 }
 
