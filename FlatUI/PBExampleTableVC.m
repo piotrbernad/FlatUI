@@ -31,7 +31,7 @@
 }
 
 -(void)configureCell:(PBFlatGroupedStyleCell *)cell forIndexPath:(NSIndexPath *)indexPath {
-    double section = indexPath.section;
+    NSInteger section = indexPath.section;
     NSInteger index = 3*section + indexPath.row;
     
     [cell.textLabel setText:[[self exampleTitles] objectAtIndex:index]];
